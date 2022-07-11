@@ -1,8 +1,13 @@
-
 # debihestr
 
 ## Decimal, Binary, Hexadecimal, String Package conversions
  
+**Copy the code in debihestr.py in your python file
+then import the functions eg. from debihestr import decimalToBinary**
+ 
+**Usage**
+`    my_binary = decimalToBinary(n) # n is a parameter to be converted to binary
+`
 # convert decimal to binary
 
     def decimalToBinary(n):
@@ -81,4 +86,5 @@
             str_data = str_data + chr(decimal_data)
             
         return str_data
+
 
